@@ -11,8 +11,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/twelho/mkuimage/uimage"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage"
 	"gopkg.in/yaml.v3"
 )
 

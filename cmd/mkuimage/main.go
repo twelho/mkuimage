@@ -14,9 +14,9 @@ import (
 	"os"
 
 	"github.com/dustin/go-humanize"
+	"github.com/twelho/mkuimage/uimage"
+	"github.com/twelho/mkuimage/uimage/mkuimage"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage"
-	"github.com/u-root/mkuimage/uimage/mkuimage"
 	"github.com/u-root/uio/llog"
 )
 

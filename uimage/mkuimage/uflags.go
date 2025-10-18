@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/twelho/mkuimage/uimage"
+	"github.com/twelho/mkuimage/uimage/builder"
+	"github.com/twelho/mkuimage/uimage/templates"
 	"github.com/u-root/gobusybox/src/pkg/golang"
 	"github.com/u-root/gobusybox/src/pkg/uflag"
-	"github.com/u-root/mkuimage/uimage"
-	"github.com/u-root/mkuimage/uimage/builder"
-	"github.com/u-root/mkuimage/uimage/templates"
 )
 
 type optionalStringVar struct {

@@ -18,9 +18,9 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/twelho/mkuimage/cpio"
+	itest "github.com/twelho/mkuimage/uimage/initramfs/test"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/cpio"
-	itest "github.com/u-root/mkuimage/uimage/initramfs/test"
 	"golang.org/x/sync/errgroup"
 )
 

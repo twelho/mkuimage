@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/u-root/mkuimage/cpio"
+	"github.com/twelho/mkuimage/cpio"
 )
 
 // Files are host files and records to add to the resulting initramfs.

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/twelho/mkuimage/uimage/initramfs"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage/initramfs"
 	"github.com/u-root/uio/llog"
 )
 

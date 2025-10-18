@@ -13,9 +13,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/twelho/mkuimage/uimage"
+	"github.com/twelho/mkuimage/uimage/builder"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage"
-	"github.com/u-root/mkuimage/uimage/builder"
 )
 
 func TestFlagErrors(t *testing.T) {

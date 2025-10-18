@@ -9,7 +9,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/u-root/mkuimage/cpio"
+	"github.com/twelho/mkuimage/cpio"
 )
 
 // Possible errors.

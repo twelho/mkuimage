@@ -10,9 +10,9 @@ import (
 	"path"
 	"path/filepath"
 
+	"github.com/twelho/mkuimage/cpio"
+	"github.com/twelho/mkuimage/uimage/initramfs"
 	"github.com/u-root/gobusybox/src/pkg/bb"
-	"github.com/u-root/mkuimage/cpio"
-	"github.com/u-root/mkuimage/uimage/initramfs"
 	"github.com/u-root/uio/llog"
 )
 

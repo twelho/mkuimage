@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/u-root/mkuimage/cpio"
+	"github.com/twelho/mkuimage/cpio"
 )
 
 // Dir opens a Writer that writes all archive files to the given directory.

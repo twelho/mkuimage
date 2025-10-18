@@ -19,13 +19,13 @@ import (
 	"strings"
 
 	"github.com/hugelgupf/go-shlex"
+	"github.com/twelho/mkuimage/cpio"
+	"github.com/twelho/mkuimage/fileflag"
+	"github.com/twelho/mkuimage/ldd"
+	"github.com/twelho/mkuimage/uimage/builder"
+	"github.com/twelho/mkuimage/uimage/initramfs"
 	"github.com/u-root/gobusybox/src/pkg/bb/findpkg"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/cpio"
-	"github.com/u-root/mkuimage/fileflag"
-	"github.com/u-root/mkuimage/ldd"
-	"github.com/u-root/mkuimage/uimage/builder"
-	"github.com/u-root/mkuimage/uimage/initramfs"
 	"github.com/u-root/uio/llog"
 )
 

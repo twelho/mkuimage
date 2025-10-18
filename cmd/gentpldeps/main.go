@@ -18,9 +18,9 @@ import (
 	"sort"
 	"text/template"
 
+	"github.com/twelho/mkuimage/uimage/mkuimage"
 	"github.com/u-root/gobusybox/src/pkg/bb/findpkg"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage/mkuimage"
 	"golang.org/x/exp/maps"
 )
 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/u-root/mkuimage/cpio"
+	"github.com/twelho/mkuimage/cpio"
 )
 
 // CPIOFile opens a Reader or Writer that reads/writes files from/to a CPIO archive at the given path.

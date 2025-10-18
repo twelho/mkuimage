@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/u-root/mkuimage/cpio"
+	"github.com/twelho/mkuimage/cpio"
 	"github.com/u-root/uio/uio"
 )
 

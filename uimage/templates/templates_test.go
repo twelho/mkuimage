@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/twelho/mkuimage/uimage"
+	"github.com/twelho/mkuimage/uimage/builder"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage"
-	"github.com/u-root/mkuimage/uimage/builder"
 )
 
 func TestMods(t *testing.T) {

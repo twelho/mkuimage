@@ -13,11 +13,11 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/twelho/mkuimage/cpio"
+	"github.com/twelho/mkuimage/uimage/builder"
+	"github.com/twelho/mkuimage/uimage/initramfs"
+	itest "github.com/twelho/mkuimage/uimage/initramfs/test"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/cpio"
-	"github.com/u-root/mkuimage/uimage/builder"
-	"github.com/u-root/mkuimage/uimage/initramfs"
-	itest "github.com/u-root/mkuimage/uimage/initramfs/test"
 	"github.com/u-root/uio/llog"
 )
 

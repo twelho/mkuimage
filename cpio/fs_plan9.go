@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/u-root/mkuimage/cpio/internal/upath"
+	"github.com/twelho/mkuimage/cpio/internal/upath"
 	"github.com/u-root/uio/uio"
 )
 

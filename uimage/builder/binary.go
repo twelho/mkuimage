@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/u-root/mkuimage/uimage/initramfs"
+	"github.com/twelho/mkuimage/uimage/initramfs"
 	"github.com/u-root/uio/llog"
 )
 

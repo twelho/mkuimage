@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/twelho/mkuimage/uimage"
+	"github.com/twelho/mkuimage/uimage/builder"
+	"github.com/twelho/mkuimage/uimage/templates"
 	"github.com/u-root/gobusybox/src/pkg/golang"
-	"github.com/u-root/mkuimage/uimage"
-	"github.com/u-root/mkuimage/uimage/builder"
-	"github.com/u-root/mkuimage/uimage/templates"
 	"github.com/u-root/uio/llog"
 )
 
@@ -81,7 +81,7 @@ func checkAmd64Level(l *llog.Logger, env *golang.Environ) {
 		}
 		bad = "may not be"
 	}
-	l.Warnf("GOAMD64 %s set to v1; on older CPUs, binaries built into " +
+	l.Warnf("GOAMD64 %s set to v1; on older CPUs, binaries built into "+
 		"the initrd may crash or refuse to run.", bad)
 }
 
@@ -124,7 +124,7 @@ func CreateUimage(l *llog.Logger, base []uimage.Modifier, tf *TemplateFlags, f *
 		l.Warnf("GOOS is not linux. Did you mean to set GOOS=linux?")
 	}
 
-	checkAmd64Level(l, env);
+	checkAmd64Level(l, env)
 
 	v, err := env.Version()
 	if err != nil {

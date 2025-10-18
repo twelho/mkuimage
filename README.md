@@ -1,9 +1,9 @@
 # uimage
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/u-root/mkuimage)](https://pkg.go.dev/github.com/u-root/mkuimage)
+[![GoDoc](https://pkg.go.dev/badge/github.com/twelho/mkuimage)](https://pkg.go.dev/github.com/twelho/mkuimage)
 [![codecov](https://codecov.io/gh/u-root/mkuimage/graph/badge.svg?token=5Z9B3OyVYi)](https://codecov.io/gh/u-root/mkuimage)
 [![Slack](https://slack.osfw.dev/badge.svg)](https://slack.osfw.dev)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/u-root/mkuimage/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/twelho/mkuimage/blob/main/LICENSE)
 
 uimage builds initramfs images composed of arbitrary Go commands and files.
 
@@ -30,7 +30,7 @@ $ go1.21.5 version
 Download and install mkuimage either via git:
 
 ```shell
-git clone https://github.com/u-root/mkuimage
+git clone https://github.com/twelho/mkuimage
 cd mkuimage/cmd/mkuimage
 go install
 ```
@@ -38,7 +38,7 @@ go install
 Or install directly with go:
 
 ```shell
-go install github.com/u-root/mkuimage/cmd/mkuimage@latest
+go install github.com/twelho/mkuimage/cmd/mkuimage@latest
 ```
 
 > [!NOTE]
